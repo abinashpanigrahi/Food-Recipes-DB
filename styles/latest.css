@@ -1,0 +1,40 @@
+#msg h1{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 50px;;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#msg h1:last-child{
+    font-size: 30px;
+    text-align: left;
+}
+
+
+#display{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 350px;
+    grid-gap: 30px;
+    margin-bottom: 50px;
+    /* border: 1px solid red; */
+}
+
+
+
+
+.foodDiv img{
+    width: 100%;
+    height: 80%;
+}
+
+.name{
+    text-align: center;
+    color: #ffc006;
+    font-size: 18px;
+}
